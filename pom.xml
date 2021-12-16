@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
+<project modelVersion="4.0.0" artifactId="frm">
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
@@ -9,28 +6,12 @@
     </parent>
 
     <groupId>net.n2oapp.framework</groupId>
-    <artifactId>framework</artifactId>
     <packaging>pom</packaging>
     <version>7.21.0-SNAPSHOT</version>
 
     <name>N2O Framework</name>
     <description>Framework for creating web applications with rich user interface without deep knowledge of WEB technologies and Frontend frameworks. Based on Java и ReactJS</description>
     <url>https://n2oapp.net</url>
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-            <comments>A business-friendly OSS license</comments>
-        </license>
-    </licenses>
-
-    <scm>
-        <connection>scm:git:https://git.i-novus.ru/open/n2o-framework.git</connection>
-        <url>https://git.i-novus.ru/open/n2o-framework</url>
-        <developerConnection>scm:git:https://git.i-novus.ru/open/n2o-framework.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
 
     <properties>
         <java.version>11</java.version>
